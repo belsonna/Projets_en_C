@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1331108363 source:c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\main.cpp
+	"methodes.cpp"
+
+1331104571 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\methodes.cpp
+	"bibliotheque.h"
+	"bohomme.cpp"
+	"porte.cpp"
+	"ascenseur.cpp"
+	"etage.cpp"
+	"boutton.cpp"
+
+1331105966 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\bibliotheque.h
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+
+1331109056 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\bohomme.cpp
+	"bibliotheque.h"
+
+1330878710 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\porte.cpp
+	"bibliotheque.h"
+
+1331052913 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\ascenseur.cpp
+	"bibliotheque.h"
+
+1331053039 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\etage.cpp
+	"bibliotheque.h"
+
+1331104916 c:\users\abath\documents\nouveau dossier\ascenseur\ascenseur\boutton.cpp
+	"bibliotheque.h"
+
+1339819317 source:d:\setup\programes c\ascenseur\ascenseur\main.cpp
+	"methodes.cpp"
+
+1331097372 d:\setup\programes c\ascenseur\ascenseur\methodes.cpp
+	"bibliotheque.h"
+	"bohomme.cpp"
+	"porte.cpp"
+	"ascenseur.cpp"
+	"etage.cpp"
+	"boutton.cpp"
+
+1331098768 d:\setup\programes c\ascenseur\ascenseur\bibliotheque.h
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+
+1339819678 d:\setup\programes c\ascenseur\ascenseur\bohomme.cpp
+	"bibliotheque.h"
+
+1330871512 d:\setup\programes c\ascenseur\ascenseur\porte.cpp
+	"bibliotheque.h"
+
+1331045714 d:\setup\programes c\ascenseur\ascenseur\ascenseur.cpp
+	"bibliotheque.h"
+
+1331045840 d:\setup\programes c\ascenseur\ascenseur\etage.cpp
+	"bibliotheque.h"
+
+1331097718 d:\setup\programes c\ascenseur\ascenseur\boutton.cpp
+	"bibliotheque.h"
+
+1339840918 source:c:\users\belona\documents\programes c\ascenseur\ascenseur\main.cpp
+	"methodes.cpp"
+
+1331118972 c:\users\belona\documents\programes c\ascenseur\ascenseur\methodes.cpp
+	"bibliotheque.h"
+	"bohomme.cpp"
+	"porte.cpp"
+	"ascenseur.cpp"
+	"etage.cpp"
+	"boutton.cpp"
+
+1331120368 c:\users\belona\documents\programes c\ascenseur\ascenseur\bibliotheque.h
+	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	<conio.h>
+
+1339841280 c:\users\belona\documents\programes c\ascenseur\ascenseur\bohomme.cpp
+	"bibliotheque.h"
+
+1330893112 c:\users\belona\documents\programes c\ascenseur\ascenseur\porte.cpp
+	"bibliotheque.h"
+
+1331067314 c:\users\belona\documents\programes c\ascenseur\ascenseur\ascenseur.cpp
+	"bibliotheque.h"
+
+1331067440 c:\users\belona\documents\programes c\ascenseur\ascenseur\etage.cpp
+	"bibliotheque.h"
+
+1331119318 c:\users\belona\documents\programes c\ascenseur\ascenseur\boutton.cpp
+	"bibliotheque.h"
+

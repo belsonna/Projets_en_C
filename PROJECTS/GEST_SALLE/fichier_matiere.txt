@@ -1,0 +1,7 @@
+ 1	          IFT100	           toto	12
+ 2	            M101	          MATHS	45
+ 3	            F101	       Francais	15
+ 4	            AN10	        Anglais	15
+ 5	            E101	   Elactronique	45
+ 6	            S101	    Statistique	15
+ 7	            OP10	            ROP	15

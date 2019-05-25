@@ -1,0 +1,19 @@
+ 1	   1 master1             	   M.Boukar            	   Elactronique        	   1 08h-11h        	 1  4  2014  
+ 2	   1 master1             	   M.Kani              	   MATHS               	   2 11h-13h 	         1  4  2014 
+ 3	   1 master1             	   M.Boukar            	   ROP                 	   3 14h-17h      	 1  4  2014 
+ 4	   1 master1             	   Me.Ngobohai         	   ROP               	   1 08h-11h      	 2  4  2014 
+ 5	   1 master1             	   M.Kani              	   MATHS               	   2 11h-13h      	 2  4  2014 
+ 6	   1 master1             	   Me.Ngobohai         	   Francais            	   3 14h-17h      	 2  4  2014 
+ 7	   1 master1             	   M.Kani              	   Anglais             	   1 08h-11h      	 3  4  2014 
+ 8	   1 master1             	   M.FOPA              	   Statistique         	   2 11h-13h      	 3  4  2014 
+ 9	   1 master1             	   Me.Ngobohai         	   Anglais             	   3 14h-17h      	 3  4  2014 
+10	   1 master1             	   M.Boukar            	   ROP                 	   1 08h-11h      	 4  4  2014 
+11	   1 master1             	   M.Ngounou           	   Francais            	   2 11h-13h      	 4  4  2014 
+12	   1 master1             	   Me.Ngobohai         	   MATHS               	   3 14h-17h      	 4  4  2014 
+13	   1 master1             	   M.FOPA              	   ANGLAI              	   1 08h-11h      	 5  4  2014 
+14	   1 master1             	   M.Kani              	   MATHS               	   2 11h-13h      	 5  4  2014 
+15	   1 master1             	   Me.Ngobohai         	   MATHS               	   3 14h-17h      	 5  4  2014 
+16	   1 master1             	   M.Kani              	   Electronique        	   1 08h-11h      	 6  4  2014 
+17	   1 master1             	   M.Kani              	   Francais            	   2 11h-13h      	 6  4  2014 
+18	   1 master1             	   M.Ngounou           	   ROP               	   3 14h-17h      	 6  4  2014 
+19	   2 IEAI1               	   M.Boukar            	   Statistique         	   1 08h-11h      	 7  4  2014 

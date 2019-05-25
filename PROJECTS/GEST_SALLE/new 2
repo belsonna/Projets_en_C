@@ -1,0 +1,120 @@
+*void saveEp(void);
+int contro_nbrEp(void);
+void listeEp(void);
+void supprimEp(void);
+void modifEp(void);
+int choix_menu_Ep(void);
+void menu_Ep();*/
+
+emploitTemps TabEp[taille],emp;
+
+void  saveEp()
+{
+    int nbr,i,nbrprog,j;
+    emploitTemps  Empl ;
+
+    if((f=fopen(fichierEp,"a+"))==NULL)
+    {
+        printf("Impossible d'ouvrir le fichier %s",fichierEp);
+        exit(1);
+    }
+    else
+    {
+           printf("ici....");
+           nbEp=controle_nbEp();
+           printf("nbe=%d",nbEp);
+                    printf("\nEntrez le nombre d'emploi de temps %c enregistrer: \n",160);
+           scanf("%d",&nbr);
+        //   emploitTemps TabEmps[nbrEmpl];
+           printf("Entregistrement.....\n");
+        //   fprintf(f,"###   FICHE EMPLOIE DE TEMPS   ###\n  id\tDates|\tPerioses|\t\tListe progremmes|\n");
+            for (i=0;i<nbr;i++)
+            {
+                Empl.id= nbEp+1;
+                printf("Date:\t");
+                scanf("%s",Empl.date);
+                printf("%s",Empl.date);
+
+                printf("p%criode:\t",130);
+                scanf("%s",Empl.period);
+
+                fprintf(f,"%d   %s\t %s\t",Empl.id,Empl.date,Empl.date);
+
+                printf("\n Entrez le nomdre de programmations %c pour cet Emploi de temps",160);
+                scanf("%d",&nbrprog);
+                for (j=0;j<nbrprog;j++)
+                {
+                    printf("id program %d= ",j+1);
+                    scanf("%d",&Empl.Listprog[j]);
+                    fprintf(f,"%d  ",Empl.Listprog[j]);
+                }
+                fprintf(f,"\n");
+                nbEp++;
+            }
+       // nbreEmpls++;
+        fclose(f);
+
+    }
+
+}
+
+int controle_nbEp(void)
+{
+    int i=0,j=0;
+    printf("ici//////////");
+    while ((nb=fgets (ch,256,f))!=NULL)
+    {
+            printf("\n ici/++++");
+            sscanf(ch, "%d %s %s ",&emp.id,emp.date,emp.period);
+             while (sscanf(ch, "%d  ",&emp.Listprog[i]) && emp.Listprog[i]!=0)
+                    {
+                             i++;
+                    }
+             j++;
+	         i=0;
+
+    }
+    return j;
+}
+
+void listeEp()
+{
+
+     int i=0,j,n=0;
+     if((f=fopen(fichierEp,"r"))==NULL)
+    {
+        printf("Impossible d'ouvrir le fichier %s",fichierEp);
+        exit(1);
+    }
+    else
+    {
+         while ((nb=fgets (ch,256,f))!=NULL)
+        {
+            sscanf(ch, "%d %s %s",&TabEp[i].id,TabEp[i].date,TabEp[i].period);
+            n++;
+
+        }
+       for (i=0; i<n; i++)
+            {
+                printf("|%2d|  %10s|  %22s|  |",TabEp[i].id,TabEp[i].date,TabEp[i].period);
+                while(TabEp[i].Listprog[j]!=0)
+                {
+                      printf("%d",TabEp[i].Listprog[j]);
+                      j++;
+                }
+                j=0;
+                printf("\n");
+            }
+    }
+    fclose(f);
+}
+
+void modifEp(void)
+{
+    printf("la fonction n'est pas implement%ce",130);
+}
+
+void supprimEp()
+{
+ printf("la fonction n'est pas implement%ce",130);
+}
